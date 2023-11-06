@@ -25,6 +25,9 @@
     "paths": {
       "@src/*": [
         "./src/*"
+      ],
+      "@logos/*": [
+        "./imgaes/logos/*"
       ]
     },
     "forceConsistentCasingInFileNames": true
