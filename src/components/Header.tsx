@@ -1,8 +1,13 @@
 import React from 'react'
+import { Logo } from './Logo'
 
 export function Header() {
   return (
-    <div>Header</div>
+    <header>
+        <nav>
+            <Logo />
+        </nav>
+    </header>
   )
 }
 
