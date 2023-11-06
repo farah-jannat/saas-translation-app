@@ -27,7 +27,7 @@
         "./src/*"
       ],
       "@logos/*": [
-        "./imgaes/logos/*"
+        "./images/logos/*"
       ]
     },
     "forceConsistentCasingInFileNames": true
