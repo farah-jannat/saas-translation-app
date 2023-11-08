@@ -7,18 +7,17 @@ import Image from 'next/image';
 export function Logo() {
   return (
     <div>
-    <Link href="/">
-      go home
-      <div className='flex items-center w-72 h-14 bg-red-800'>
+    <Link href="/" prefetch={false} className='overflow-hidden'>
+      <div className='flex items-center w-72 h-14'>
         <AspectRatio
-          ratio={16 / 9}
+          ratio={14 / 6}
           className="flex items center justify-center"
         >
           <Image 
             priority
             src={LogoImage}
             alt="Anychat logo"
-            className="rounded-full dark:filter dark:invert"
+            className="dark:filter dark:invert"
           />
         </AspectRatio>
       </div>
