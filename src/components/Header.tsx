@@ -1,6 +1,7 @@
 import React from 'react';
 import { Logo } from './Logo';
 import DarkModeToggle from './DarkModeToggle';
+import UserProfile from './UserProfile';
 
 export function Header() {
   return (
@@ -13,6 +14,7 @@ export function Header() {
           {/* darkmode  */}
           <DarkModeToggle />
           {/* userbutton  */}
+          <UserProfile/>
         </div>
       </nav>
     </header>
