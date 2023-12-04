@@ -13,6 +13,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@auth/firebase-adapter": "^1.0.7",
     "@radix-ui/react-aspect-ratio": "^1.0.3",
     "@radix-ui/react-avatar": "^1.0.4",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
@@ -25,6 +26,8 @@
     "clsx": "^2.0.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.17",
+    "firebase": "^10.7.0",
+    "firebase-admin": "^11.11.1",
     "lucide-react": "^0.292.0",
     "next": "^13.4.10",
     "next-auth": "^4.24.4",
