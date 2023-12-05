@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@src/components/ThemeProvider';
 import ClientProvider from '@src/components/ClientProvider';
 import Header from '@src/components/Header';
+import FirebaseAuthProvider from '@src/components/FirebaseAuthProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
     <ClientProvider>
       <html lang="en">
         <body className={inter.className}>
+          <FirebaseAuthProvider>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -31,6 +33,7 @@ export default function RootLayout({
             <Header />
             {children}
           </ThemeProvider>
+</FirebaseAuthProvider>
         </body>
       </html>
     </ClientProvider>
